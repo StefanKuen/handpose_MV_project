@@ -1,0 +1,7 @@
+Steps:
+- V2V
+1) clone https://github.com/John-Dean/V2V-PoseNet-PyTorch.git into this directory
+2) follow the README in the V2V-PoseNet-PyTorch repo
+3) add the MSRA model to the datasets folder (explained in the V2V-PoseNet-PyTorch README)
+- mediapipe
+4) install mediapipe with pip

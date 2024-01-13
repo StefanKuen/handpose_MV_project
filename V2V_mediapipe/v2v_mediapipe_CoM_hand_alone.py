@@ -12,8 +12,9 @@ import time
 import torch.multiprocessing as multiprocessing
 import struct
 
-# Add the root directory so we can use the following imports
-root_directory	=	str(pathlib.Path(__file__).parent.parent.resolve()).replace("\\","/")
+# Add the directory of V2V so that we can import V2V
+from os.path import dirname, abspath
+root_directory = str(dirname(dirname(abspath(__file__))) + "/V2V-Pytorch/V2V-PoseNet-PyTorch/").replace("\\","/")
 sys.path.append(root_directory)
 
 from src.v2v_model import V2VModel
@@ -36,7 +37,8 @@ import time
 from datetime import datetime
 
 
-image_path = '/home/stefan/Documents/Master/MV_Project/V2V-Pytorch/V2V-PoseNet-PyTorch/pose_estimation/img3/'
+#image_path = '/home/stefan/Documents/Master/MV_Project/V2V-Pytorch/V2V-PoseNet-PyTorch/pose_estimation/img3/'
+image_path = '/home/stefan/Documents/Master/Machine_Vision/images/img3/'
 
 
 lines = [

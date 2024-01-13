@@ -16,7 +16,8 @@ from datetime import datetime
 
 
 # Image path of the stored live hand images
-image_path = '/home/stefan/Documents/Master/MV_Project/V2V-Pytorch/V2V-PoseNet-PyTorch/pose_estimation/img3/'
+#image_path = '/home/stefan/Documents/Master/MV_Project/V2V-Pytorch/V2V-PoseNet-PyTorch/pose_estimation/img3/'
+image_path = '/home/stefan/Documents/Master/Machine_Vision/images/img3/'
 
 lines = [
     [0, 1],
